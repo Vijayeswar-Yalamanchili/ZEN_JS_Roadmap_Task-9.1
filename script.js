@@ -1,10 +1,10 @@
 function submitForm(){
     // getting the value
-    const firstName = document.getElementById("fname").value;
-    const lastName = document.getElementById("lname").value;
+    const firstName = document.getElementById("first-name").value;
+    const lastName = document.getElementById("last-name").value;
     const addresstext = document.getElementById('address').value;
     const pincode = document.getElementById('pincode').value;
-    const gendertype = document.getElementById('gender').value;
+    const gendertype = document.querySelector('input[name="gender"]:checked').value;
     const food = Array.from(document.getElementById('food').selectedOptions).map(option => option.value);
     const stateName = document.getElementById('state').value;
     const countryName = document.getElementById('country').value;
