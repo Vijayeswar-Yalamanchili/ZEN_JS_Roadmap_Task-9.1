@@ -1,5 +1,5 @@
 function submitForm(){
-    // getting the value
+    // getting the value from html using dom
     const firstName = document.getElementById("first-name").value;
     const lastName = document.getElementById("last-name").value;
     const addresstext = document.getElementById('address').value;
